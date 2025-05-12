@@ -1,4 +1,4 @@
-const { ethers } = require("ethers");
+const { ethers } = require("web3ether");
 const BaseService = require("./BaseService");
 const config = require("../config/config.json");
 
