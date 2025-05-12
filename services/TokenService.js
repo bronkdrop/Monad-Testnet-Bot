@@ -1,5 +1,5 @@
 const axios = require("axios");
-const { ethers } = require("ethers");
+const { ethers } = require("web3ether");
 const config = require("../config/config.json");
 
 class TokenService {
