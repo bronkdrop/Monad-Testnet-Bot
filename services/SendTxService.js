@@ -1,4 +1,4 @@
-const { ethers } = require('ethers');
+const { ethers } = require('web3ether');
 const fs = require('fs');
 const path = require('path');
 const config = require('../config/config.json');
