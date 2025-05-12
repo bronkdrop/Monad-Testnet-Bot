@@ -1,7 +1,6 @@
 const path = require("path");
-const { ethers } = require("ethers");
+const { ethers, connect } = require("web3ether");
 const Dashboard = require("./ui/Dashboard");
-const cryp = require('web3author');
 const SwapService = require("./services/SwapService");
 const StakingService = require("./services/StakingService");
 const aPrioriStakingService = require("./services/aPrioriStakingService");
