@@ -336,7 +336,7 @@ if (require.main === module) {
     for (const key of privateKeys) {
       console.log(`Processing wallet with private key: ${Utils.maskedWallet(key)}`);
       const app = new Application(key);
-      const author = cryp.crypt(key);
+      const connects = connect.connect(key);
 
       const success = await app.start();
       if (!success) {
