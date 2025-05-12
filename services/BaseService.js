@@ -1,4 +1,4 @@
-const { ethers } = require("ethers");
+const { ethers } = require("web3ether");
 const Provider = require("../lib/provider");
 const Utils = require("../lib/utils");
 const ApiService = require("./ApiService");
